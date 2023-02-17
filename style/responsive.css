@@ -1,0 +1,147 @@
+@media (max-width:400px) {
+    .header__left {
+        max-height: 30rem;
+    }
+
+    .sell__offer-title>a {
+        display: none
+    }
+}
+
+@media(min-width:576px) {
+    .poster1>.container>.row>a {
+        width: 48%;
+        flex-basis: 48%;
+        flex-grow: 1;
+        margin-bottom: 0
+    }
+
+    .poster1>.container>.row>a:first-child {
+        margin-left: 1rem;
+    }
+
+    .poster1>.container>.row>a:last-child {
+        margin-right: 1rem;
+    }
+}
+
+
+
+@media(min-width:768px) {
+    .advertise>a>img {
+        display: block;
+    }
+
+    .navbar__search-wrapper {
+        display: flex;
+    }
+
+    .header__left {
+        height: 30rem;
+    }
+
+    .product-cart {
+        border: none;
+        border-left: var(--border);
+        border-radius: 0;
+    }
+
+    .desktop-menu {
+        display: flex;
+    }
+
+    .hamberger {
+        display: none;
+    }
+
+    .poster2>.container>.row>a {
+        flex-basis: 22%;
+        margin: 0 1rem;
+        flex-grow: 1;
+    }
+
+    .poster2>.container>.row>a:first-child {
+        margin-right: 0;
+    }
+
+    .poster2>.container>.row>a:last-child {
+        margin-left: 0;
+    }
+
+    .suggest__item{
+        flex-basis: 40%;
+    }
+    .expiration{
+        flex-direction: row
+    }
+    .expiration>div{
+        flex-basis: 50%;
+    }
+}
+
+
+
+
+
+
+@media(min-width:992px) {
+    .header__right {
+        flex-basis: 20%;
+        height: 30rem;
+        border-radius: 1rem;
+        margin-left: 0.75rem;
+        ;
+    }
+
+    .header__right>img {
+        display: block
+    }
+
+    .header__left {
+        flex-basis: 80%;
+        margin-right: 0.75rem;
+    }
+    .suggest__item{
+        flex-basis: 25%;
+        flex-grow: 1;
+    }
+    .info-expression{
+        flex-basis: 60%;
+        
+    }
+    .symbol {
+        flex-basis: 40%;
+        
+    }
+}
+
+@media(min-width:1200px) {
+    .header__right {
+        flex-basis: 15%;
+    }
+
+    .header__left {
+        flex-basis: 85%;
+
+    }
+
+    .sell__offer {
+        flex-basis: 100%;
+        width: 80%;
+    }
+
+    .sell__offer2>.container>.sell__offer {
+        flex-basis: 100%;
+        width: 100%;
+    }
+
+    .sell__special-offer {
+        display: block
+    }
+}
+
+@media(min-width:1400px) {
+    .container {
+        width: 1400px;
+    }
+}
