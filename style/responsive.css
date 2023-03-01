@@ -152,7 +152,7 @@
 }
 
 @media(max-width:992px) {
-    a:focus {
-        outline: none;
+    * {
+       cursor:none
     }
 }
