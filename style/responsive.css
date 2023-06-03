@@ -6,6 +6,16 @@
     .sell__offer-title>a {
         display: none
     }
+
+
+
+}
+
+@media(min-width:450px) {
+
+    .symbol {
+        flex-direction: row;
+    }
 }
 
 @media(min-width:576px) {
@@ -23,6 +33,8 @@
     .poster1>.container>.row>a:last-child {
         margin-right: 1rem;
     }
+
+
 }
 
 
@@ -153,6 +165,7 @@
 
 @media(max-width:992px) {
     * {
-       cursor:none
+        cursor: none;
     }
+
 }

@@ -30,7 +30,6 @@ html {
 body {
     font-family: shabnam;
     font-size: 1.6rem;
-    overflow-x: hidden;
 }
 
 /* 
@@ -606,7 +605,7 @@ menu
 
 .sell__offer-products {
     width: 100%;
-  }
+}
 
 
 
@@ -1182,7 +1181,12 @@ menu
 }
 
 .symbol {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
     flex-basis: 100%;
+    align-items: center;
     justify-content: center;
 }
 
